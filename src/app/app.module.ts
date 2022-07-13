@@ -10,6 +10,7 @@ import { AddContactComponent } from './components/add-contact/add-contact.compon
 import { EditContactComponent } from './components/edit-contact/edit-contact.component';
 import { ViewContactComponent } from './components/view-contact/view-contact.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

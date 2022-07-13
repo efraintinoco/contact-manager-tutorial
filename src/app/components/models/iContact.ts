@@ -3,8 +3,8 @@ export interface IContact {
   name: string;
   email: string;
   photo: string;
-  mobile: string;
+  phone: string;
   company: string;
   title: string;
-  groupID: string;
+  groupId: string;
 }

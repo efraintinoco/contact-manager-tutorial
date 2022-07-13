@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'contacts/admin', component: ContactManagerComponent },
   { path: 'contacts/add', component: AddContactComponent},
   { path: 'contacts/edit/:contactID', component: EditContactComponent },
-  { path: 'contacts/view/contactID', component: ViewContactComponent},
+  { path: 'contacts/view/:contactID', component: ViewContactComponent},
 ];
 
 @NgModule({
